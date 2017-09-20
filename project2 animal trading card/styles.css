@@ -1,0 +1,33 @@
+.card{
+	width: 300px;
+	border: groove;
+	box-shadow:  5px 5px 5px #888888;
+	padding: 1% 1%;
+}
+.animalName{
+	/*margin-top: 20px;*/
+	border: none;
+}
+.image{
+	border: none;
+	margin-bottom: 5px;
+}
+.details{
+	padding: 1% 1%;
+	border: groove;
+}
+.fact{
+	margin: 5px;
+	text-align: justify;
+	font-style: italic;
+}
+.list{
+	list-style: none;
+}
+.labels{
+	font-weight: bold;
+}
+.description{
+	margin: 5px;
+	text-align: justify;
+}

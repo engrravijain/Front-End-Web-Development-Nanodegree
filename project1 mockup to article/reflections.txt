@@ -1,0 +1,20 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here.
+
+web Development is very interesting and i am exploring new possibilites with each new lesson. hope to see very intersesting things ahead.
+
+ Answer the following questions:
+  
+* What new skills have you learned?
+ 
+	i learned HTML and to make a website from mockups.
+
+ * What has been easy?
+ 
+	it has been very easy.
+
+ * What has been difficult?
+
+	the final project a bit as i have to do some research to get the desired results.
+
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+	i browsed through the mozilla developer network to get my queries solved and also i have looked at stackoverflow for some code.

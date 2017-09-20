@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Neighborhood Map</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="map"></div>
+        <div id="section">
+            <form>
+                <input type="text" placeholder="Search.." 
+                data-bind="textInput: filterText, event: {keyup: applyFilter}">
+            <!--    <ul data-bind="foreach: locationsList, click: focusSelected">-->
+                <ul data-bind="foreach: filterList, click: focusSelected">
+                    <a href=""><li id="listElement" data-bind="text: $data,click: $parent.focusSelected"></li></a>
+                </ul>
+                <div id="buttonSection">
+                    <button data-bind="click: showMarkers">Show Listings</button>
+                    <button data-bind="click: hideMarkers">Hide Listings</button>
+                    <button data-bind="click: resetMap">RESET</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD9xMPGQb4I9YQSVnM7FqrBbnLt4zXeF4&callback=initMap" async defer onerror="googlemapserror()"></script>
+</body>
+</html>
