@@ -4,6 +4,9 @@ Your challenge, if you wish to accept it (and we sure hope you will), is to opti
 
 To get started, check out the repository and inspect the code.
 
+### [TEST IT HERE](https://engrravijain.github.io/Front-End-Web-Development-Nanodegree/project10%20website%20optimization/index.html)
+
+
 ### Getting started
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
